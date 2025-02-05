@@ -38,7 +38,7 @@
     cloak.enable = lib.mkDefault true;
     harpoon.enable = lib.mkDefault true;
     markdown-preview.enable = lib.mkDefault false;
-    mini.enable = lib.mkDefault true;
+    mini.enable = lib.mkDefault false;
     neocord.enable = lib.mkDefault true;
     neotest.enable = lib.mkDefault true;
     nvim-autopairs.enable = lib.mkDefault true;
@@ -50,11 +50,11 @@
     plenary.enable = lib.mkDefault true;
     project-nvim.enable = lib.mkDefault true;
     sidebar.enable = lib.mkDefault false;
-    tmux-navigator.enable = lib.mkDefault true;
+    tmux-navigator.enable = lib.mkDefault false;
     todo-comments.enable = lib.mkDefault true;
     ultimate-autopair.enable = lib.mkDefault true;
     undotree.enable = lib.mkDefault true;
-    wakatime.enable = lib.mkDefault true;
+    wakatime.enable = lib.mkDefault false;
     which-key.enable = lib.mkDefault true;
     wilder.enable = lib.mkDefault false;
   };
