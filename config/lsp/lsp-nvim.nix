@@ -81,8 +81,11 @@
               };
             };
           };
+	  biome = {
+	    enable = true;
+	  };
           eslint = {
-            enable = true;
+            enable = false;
           };
           pyright = {
             enable = true;
