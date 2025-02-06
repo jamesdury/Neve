@@ -21,6 +21,8 @@
     ./utils
   ];
 
+clipboard = { register = "unnamedplus"; providers.wl-copy.enable = true; };
+
   bufferlines.enable = lib.mkDefault true;
   colorschemes.enable = lib.mkDefault true;
   completion.enable = lib.mkDefault true;
